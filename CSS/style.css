@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    padding: 10px;
+}
+header a{
+     text-decoration: none;
+     color: black;
+     padding: 10px;
+}
+.title h4{
+    color: red;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.title h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.left {
+    margin: 50px;
+}
+.right {
+    margin: 50px;
+    margin-left: 650px;
+}
+.title {
+    display: flex;
+}
+.right button {
+    border-radius: 30px;
+    width: 300px;
+    height: 45px;
+    border-width: 0px;
+    margin: 10px;
+}
+.pc{
+    background-image: url("img/colors.webp");
+    width: 1000px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: .0.5s ease;
+}
+.main {
+    display: flex;
+}
+.info {
+    margin-left: 50px;
+}
+.info h1 {
+    font-size: 30px;
+}
+.box {
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: black;
+    width: 400px;
+    height: 100px;
+    border-width: 15px;
+    display: flex;
+    background-color: rgb(178, 175, 175);
+}
+.box .l {
+    width: 700px;
+}
+.box h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.box p {
+    font-size: 15px;
+}
+.box_1 {
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: black;
+    width: 400px;
+    height: 100px;
+    border-width: 15px;
+    background-color: rgb(178, 175, 175);
+}
+.color b{
+    color: grey;
+}
+.color h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
